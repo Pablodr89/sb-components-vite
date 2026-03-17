@@ -34,7 +34,7 @@ export const Basic: Story = {
 export const AllCaps: Story = {
   args: {
     label: "All Caps Label",
-    size: "normal",
+    size: "h1",
     allCaps: true,
   },
 };
@@ -42,7 +42,7 @@ export const AllCaps: Story = {
 export const Secondary: Story = {
   args: {
     label: "Secondary Label",
-    size: "normal",
+    size: "h1",
     color: "text-secondary",
   },
 };
@@ -50,7 +50,7 @@ export const Secondary: Story = {
 export const Tertiary: Story = {
   args: {
     label: "Tertiary Label",
-    size: "normal",
+    size: "h1",
     color: "text-tertiary",
   },
 };
@@ -58,7 +58,7 @@ export const Tertiary: Story = {
 export const BackgroundColor: Story = {
   args: {
     label: "BackgroundColor Label",
-    size: "normal",
+    size: "h1",
     backgroundColor: "#fc0a0a",
   },
 };
