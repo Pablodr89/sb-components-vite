@@ -9,7 +9,7 @@ interface Props {
   /**
    * Label size
    * **/
-  size?: "normal" | "h1" | "h2" | "h3";
+  size: "normal" | "h1" | "h2" | "h3";
 
   /**
    * Capitalize text
@@ -29,7 +29,7 @@ interface Props {
 
 export default function MyLabel({
   label,
-  size = "normal",
+  size,
   allCaps = false,
   color,
   backgroundColor,

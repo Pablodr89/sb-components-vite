@@ -27,12 +27,14 @@ type Story = StoryObj<typeof meta>;
 export const Basic: Story = {
   args: {
     label: "Basic Label",
+    size: "normal",
   },
 };
 
 export const AllCaps: Story = {
   args: {
     label: "All Caps Label",
+    size: "normal",
     allCaps: true,
   },
 };
@@ -40,6 +42,7 @@ export const AllCaps: Story = {
 export const Secondary: Story = {
   args: {
     label: "Secondary Label",
+    size: "normal",
     color: "text-secondary",
   },
 };
@@ -47,6 +50,7 @@ export const Secondary: Story = {
 export const Tertiary: Story = {
   args: {
     label: "Tertiary Label",
+    size: "normal",
     color: "text-tertiary",
   },
 };
@@ -54,6 +58,7 @@ export const Tertiary: Story = {
 export const BackgroundColor: Story = {
   args: {
     label: "BackgroundColor Label",
+    size: "normal",
     backgroundColor: "#fc0a0a",
   },
 };
