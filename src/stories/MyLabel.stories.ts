@@ -15,7 +15,7 @@ const meta = {
       control: "inline-radio",
       options: ["text-primary", "text-secondary", "text-tertiary"],
     },
-    fontColor: {
+    backgroundColor: {
       control: "color",
     },
   },
@@ -44,9 +44,9 @@ export const Secondary: Story = {
   },
 };
 
-export const CustomColor: Story = {
+export const BackgroundColor: Story = {
   args: {
-    label: "Custom Color Label",
-    fontColor: "#FF5733",
+    label: "BackgroundColor Label",
+    backgroundColor: "#fc0a0a",
   },
 };

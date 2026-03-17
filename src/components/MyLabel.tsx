@@ -24,7 +24,7 @@ interface Props {
   /**
    * Color of the label text with custom value
    * **/
-  fontColor?: string;
+  backgroundColor?: string;
 }
 
 export default function MyLabel({
@@ -32,10 +32,10 @@ export default function MyLabel({
   size = "normal",
   allCaps = false,
   color,
-  fontColor,
+  backgroundColor,
 }: Props) {
   return (
-    <span className={`${size} ${color} label`} style={{ color: fontColor }}>
+    <span className={`${size} ${color} label`} style={{ backgroundColor }}>
       {allCaps ? label.toUpperCase() : label}
     </span>
   );
