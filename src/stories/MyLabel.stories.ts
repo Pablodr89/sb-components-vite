@@ -44,6 +44,13 @@ export const Secondary: Story = {
   },
 };
 
+export const Tertiary: Story = {
+  args: {
+    label: "Tertiary Label",
+    color: "text-tertiary",
+  },
+};
+
 export const BackgroundColor: Story = {
   args: {
     label: "BackgroundColor Label",
